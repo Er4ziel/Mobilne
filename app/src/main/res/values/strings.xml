@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1">Wybierz punkt</string>
+    <string name="button2">Zmień oświetlenie</string>
+    <string name="button3">Dodatkowe ustawienia</string>
+    <string name="button4">Ukryj menu</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
