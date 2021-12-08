@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        //----------------ukrywanie paska up----------------
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
+        //-------------------------------------------------
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -23,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
         changeActivityBTN2.setOnClickListener(v -> changeActivity2());
 
-        Button changeActivityBTN3 = findViewById(R.id.button3);
-
-        changeActivityBTN3.setOnClickListener(v -> changeActivity3());
 
 
 
@@ -38,14 +40,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeActivity2() {
-        Intent intent = new Intent(this,Activity3.class);
+        Intent intent = new Intent(this,settings.class);
         startActivity(intent);
     }
 
-    private void changeActivity3() {
-        Intent intent = new Intent(this,Activity4.class);
-        startActivity(intent);
-    }
 
 
 

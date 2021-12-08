@@ -1,14 +1,13 @@
 package com.example.myapplication;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class Activity3 extends AppCompatActivity {
+public class settings extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.activity_settings);
     }
 }
