@@ -8,23 +8,23 @@
 
 
     <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/google_map"
-        android:name="com.google.android.gms.maps.SupportMapFragment">
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     </fragment>
 
 
     <SearchView
         android:id="@+id/sv_location"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="575dp"
         android:background="@drawable/bg_round"
         android:elevation="5dp"
         android:iconifiedByDefault="false"
@@ -33,6 +33,5 @@
     </SearchView>
 
 
-
-    </RelativeLayout>
+</RelativeLayout>
 
