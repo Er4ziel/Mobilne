@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         changeActivityBTN2.setOnClickListener(v -> changeActivity2());
 
 
+        Button changeActivityBTN3 = findViewById(R.id.button3);
+
+        changeActivityBTN3.setOnClickListener(v -> changeActivity3());
+
+
 
 
         }
@@ -41,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void changeActivity2() {
         Intent intent = new Intent(this,settings.class);
+        startActivity(intent);
+    }
+
+    private void changeActivity3() {
+        Intent intent = new Intent(this,Dodatki.class);
         startActivity(intent);
     }
 

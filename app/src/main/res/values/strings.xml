@@ -2,8 +2,9 @@
     <string name="app_name">My Application</string>
     <string name="button1">Wybierz punkt</string>
     <string name="button2">Zmień oświetlenie</string>
-    <string name="button3">Dodatkowe ustawienia</string>
-    <string name="button4">Ukryj menu</string>
+    <string name="button3">Dodatki</string>
+    <string name="button4">Kompas</string>
+    <string name="button5">Latarka</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
@@ -23,4 +24,5 @@
     <string name="ustawienia">Ustawienia</string>
     <string name="aptur_io">ApTur.io</string>
     <string name="adujemy_j_dla_ciebie">Ładujemy ją dla ciebie :)</string>
+    <string name="dodatki">Dodatki</string>
 </resources>
