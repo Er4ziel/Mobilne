@@ -16,50 +16,36 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Kompas extends AppCompatActivity implements SensorEventListener {
 
-
     private SensorManager SensorManage;
-
     private ImageView compassimage;
-
     private float DegreeStart = 0f;
-
     TextView DegreeTV;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kompas);
-
-
         compassimage = (ImageView) findViewById(R.id.compass_image);
 
         DegreeTV = (TextView) findViewById(R.id.DegreeTV);
 
         SensorManage = (SensorManager) getSystemService(SENSOR_SERVICE);
     }
-
     @Override
     protected void onPause() {
         super.onPause();
-
         SensorManage.unregisterListener(this);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
         SensorManage.registerListener(this, SensorManage.getDefaultSensor(Sensor.TYPE_ORIENTATION),
                 SensorManager.SENSOR_DELAY_GAME);
     }
-
     @Override
     public void onSensorChanged(SensorEvent event) {
-
         float degree = Math.round(event.values[0]);
-
         DegreeTV.setText("Heading: " + Float.toString(degree) + " degrees");
-
         RotateAnimation ra = new RotateAnimation(
                 DegreeStart,
                 -degree,
@@ -74,9 +60,7 @@ public class Kompas extends AppCompatActivity implements SensorEventListener {
         DegreeStart = -degree;
 
     }
-
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
-        // not in use
     }
 }
