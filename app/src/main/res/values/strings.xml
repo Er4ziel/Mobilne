@@ -5,6 +5,7 @@
     <string name="button3">Dodatki</string>
     <string name="button4">Kompas</string>
     <string name="button5">Latarka</string>
+    <string name="button6">Aparat</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
 

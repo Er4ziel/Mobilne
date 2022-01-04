@@ -9,6 +9,21 @@ android:background="@drawable/background_main"
 tools:context=".Dodatki">
 
     <Button
+        android:id="@+id/button6"
+        android:layout_width="374dp"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/button6"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <Button
         android:id="@+id/button5"
         android:layout_width="374dp"
         android:layout_height="85dp"
