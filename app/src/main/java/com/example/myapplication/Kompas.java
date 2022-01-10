@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
+import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.hardware.SensorEvent;
@@ -16,12 +17,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Kompas extends AppCompatActivity implements SensorEventListener {
 
+
+
     private SensorManager SensorManage;
     private ImageView compassimage;
     private float DegreeStart = 0f;
     TextView DegreeTV;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //----------------ukrywanie paska up----------------
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
+        //-------------------------------------------------
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kompas);
         compassimage = (ImageView) findViewById(R.id.compass_image);

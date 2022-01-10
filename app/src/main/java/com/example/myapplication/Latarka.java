@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.view.Window;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -25,6 +26,10 @@ public class Latarka extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //----------------ukrywanie paska up----------------
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
+        //-------------------------------------------------
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_latarka);
 
