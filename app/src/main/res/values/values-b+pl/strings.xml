@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
     <string name="button1">Wybierz punkt</string>
     <string name="button3">Dodatki</string>
     <string name="button4">Kompas</string>
@@ -25,5 +24,6 @@
     <string name="aptur_io">ApTur.io</string>
     <string name="adujemy_j_dla_ciebie">Ładujemy ją dla ciebie :)</string>
     <string name="dodatki">Dodatki</string>
+    <string name="app_name">ApTur.io</string>
 </resources>
 

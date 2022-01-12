@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ApTur.io</string>
     <string name="button1">Select a point</string>
     <string name="button3">Extras</string>
     <string name="button4">Compass</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
     <string name="button1">Выберите точку</string>
     <string name="button3">Добавки</string>
     <string name="button4">Компас</string>
@@ -26,4 +25,5 @@
     <string name="aptur_io">АпТур.ио</string>
     <string name="adujemy_j_dla_ciebie">Мы загрузим его для вас :)</string>
     <string name="dodatki">Добавки</string>
+    <string name="app_name">АпТур.ио</string>
 </resources>
