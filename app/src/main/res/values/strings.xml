@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">ApTur.io</string>
-    <string name="button1">Select a point</string>
-    <string name="button3">Extras</string>
-    <string name="button4">Compass</string>
-    <string name="button5">Flashlight</string>
-    <string name="button6">Camera</string>
+    <string name="button1">Wybierz punkt</string>
+    <string name="button3">Dodatki</string>
+    <string name="button4">Kompas</string>
+    <string name="button5">Latarka</string>
+    <string name="button6">Kamera</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
@@ -23,6 +23,6 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="ustawienia">Settings</string>
     <string name="aptur_io">ApTur.io</string>
-    <string name="adujemy_j_dla_ciebie">We are loading it for you :)</string>
-    <string name="dodatki">Extras</string>
+    <string name="adujemy_j_dla_ciebie">Ładujemy ją dla ciebie :)</string>
+    <string name="dodatki">Dodatki</string>
 </resources>
