@@ -24,9 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         changeActivityBTN.setOnClickListener(v -> changeActivity());
 
-        Button changeActivityBTN2 = findViewById(R.id.button2);
 
-        changeActivityBTN2.setOnClickListener(v -> changeActivity2());
 
 
         Button changeActivityBTN3 = findViewById(R.id.button3);
@@ -44,10 +42,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void changeActivity2() {
-        Intent intent = new Intent(this,settings.class);
-        startActivity(intent);
-    }
 
     private void changeActivity3() {
         Intent intent = new Intent(this,Dodatki.class);
